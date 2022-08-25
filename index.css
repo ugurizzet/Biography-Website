@@ -2,54 +2,69 @@ body{
     background-color: black;
     color: white;
 }
-.container{
-    /* border: 2px solid red; */
-    width: 80%;
+
+#container{
+    width: 70%;
     margin: auto;
-    background-color: rgba(48, 46, 46, 0.815);
+}
+
+.headings{
+    font-family: "Lobster";
+    font-size: 90px;
+}
+
+#marvel{
+    font-size: 30px;
+}
+
+span{
+    color: red;
+}
+
+/*
+ #img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+#image{/*margin boşluğu ayarlar.*/
+   /* border: 1px solid blue;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     border-radius: 20px;
 }
-.heading{
-    font-family: 'Lobster', cursive;
-}
-#martin{
-    font-size: 45px;
+
+#title{
     text-align: center;
 }
-#span1{
-    color: red;
-}
-#imga, #img-container{
+
+#text1{
     text-align: center;
+    font-size: 25px;
 }
-#imga{
-    width: 80%;
-    border-radius: 30px;
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
 }
-#info{
-    /* border: 1px solid red; */
-    width: 80%;
-    margin: 20px auto;
-    text-align: justify;
-}
+
 #marvel{
+    font-size: 60px;
+}
+
+#li{
+    font-size: 20px;
+    line-height: 1.5;
+}
+#link{/* text decoration yazılı olan yerin özelliklerini belirtir ve burda altı çizili olmasını kaldır. */
     color: red;
-    /* border: 2px solid red; */
-    width: 80%;
-    margin: auto;
-}
-#list{
-    /* border: 1px solid red; */
-    width: 80%;
-    margin: auto;
-}
-#link{
-    color: white;
-    border: 1px solid gold;
-    border-radius: 10px;
-    background-color: black;
     text-decoration: none;
 }
-#link:hover{
-    color: red;
+#link:hover{/*üzerine geldiğinde rengin beyaz olması için*/
+    color: aliceblue;
+
 }
